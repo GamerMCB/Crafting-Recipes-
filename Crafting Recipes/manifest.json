@@ -1,0 +1,51 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Adds 84 new crafting recipes, 1 furnace recipe, 1 stonecutter recipe and 2 brewing recipes!",
+        "name": "Crafting Recipes+ 2.0",
+        "uuid": "7007ab96-9fe2-41b0-9ba5-43cebe85185e",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 21, 0]
+    },
+    "modules": [
+        {
+            "description": "Adds 84 new crafting recipes, 1 furnace recipe, 1 stonecutter recipe and 2 brewing recipes!",
+            "type": "data",
+            "uuid": "7010681a-d7be-4433-a11c-02abf42ba2ec",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ],
+    "subpacks": [
+        {
+    		"folder_name": "balanced",
+    		"name": "§aBalanced \n\n§6Removes all unobtainable items, as well as remove items that you might want to unlock yourself, such as music discs.",
+    		"memory_tier": 1
+    	},
+    	{
+    		"folder_name": "obtainable_only",
+    		"name": "§cObtainable Only \n\n§bRemoves all of the items you can not get in survival mode from this add-on.",
+    		"memory_tier": 2
+    	},
+        {
+            "folder_name": "full_version",
+            "name": "§eFull Version \n\n§dIncludes all of the 84 crafting recipes, including ones you can't obtain in survival.",
+            "memory_tier": 3
+        }
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": " §7Select an option that you prefer."
+        }
+    ]
+}
